@@ -1,0 +1,34 @@
+MUNDO DAVI’S
+Brincar, descobrir e aprender!
+
+COMO ABRIR NO COMPUTADOR
+Abra index.html no navegador. Mantenha os arquivos na mesma pasta.
+O áudio utiliza a voz em português disponível no navegador/sistema.
+Não há instalação, login próprio, anúncios ou coleta de respostas.
+
+ÁREAS
+Letras e sons, números, formas, cores, animais e primeiras palavras.
+Cada rodada sorteia até cinco perguntas. A criança pode tentar novamente.
+Traçado: escolha uma letra e desenhe com mouse ou dedo. Esta atividade
+é livre e não reconhece nem avalia a caligrafia.
+
+COMO EDITAR
+index.html: estrutura da página.
+style.css: aparência.
+script.js: funcionamento das atividades.
+perguntas/banco.js: áreas e perguntas.
+
+Pergunta: {texto:'Onde está o gato?', figura:'🔎',
+ opcoes:[{v:'🐱',label:'GATO'},{v:'🐶',label:'CACHORRO'},{v:'🐮',label:'VACA'}],correta:0}
+O campo correta começa em zero. As alternativas são embaralhadas ao jogar.
+Para adicionar uma seção: adicione sua definição em window.areas e um
+array de perguntas correspondente em bancoPerguntas. O menu será criado
+automaticamente. Evite alternativas repetidas.
+
+GITHUB PAGES
+Envie o conteúdo desta pasta à raiz de um novo repositório.
+Em Settings > Pages, selecione Deploy from a branch, main e / (root).
+
+ACOMPANHAMENTO
+Projetado para educação infantil, com acompanhamento de adulto.
+As imagens de animais e objetos são emojis e podem variar por dispositivo.
